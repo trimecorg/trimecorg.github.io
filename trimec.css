@@ -104,6 +104,9 @@ div.headerpic {
 }
 
 
+ul.sched { margin-left: 1em;
+	   padding-left: 0; }
+
 ul.sched li{ font-weight: 700; }
 ul.sched li ul li { font-weight: 400; }
 ul.sched li ul { margin-bottom: 4pt; }
