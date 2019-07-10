@@ -84,11 +84,11 @@ div.footer {
    div.body {
     padding-right: 1em;
    }
-   h1 {  font-size: 24pt; }
+   h1 {  font-size: 24pt;  clear: both;}
    p.subhead { 	font-size: 16pt;
 		line-height: 20pt;
 	     }
-   div.headerpic { clear: both; }
+
 }
 
 @media only screen and (min-width: 1201px) { 
