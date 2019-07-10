@@ -87,6 +87,8 @@ div.footer {
    h1 {  font-size: 24pt; }
    p.subhead { 	font-size: 16pt;
 		line-height: 20pt;
+	     }
+   div.headerpic { clear: both; }
 }
 
 @media only screen and (min-width: 1201px) { 
@@ -99,7 +101,6 @@ div.footer {
 
 
 div.headerpic {
-
     width: 200px;
     float: right;
 }
