@@ -18,7 +18,7 @@ h2 {  font-family: 'Heebo', sans-serif;
 	font-size: 20pt;
 	margin: 0;
 	padding: 0;
-	margin-top: 4pt;
+	margin-top: 1em;
 	margin-left: 0.5em;
    }
 	
@@ -30,11 +30,15 @@ body { 	font-size: 14pt;
 	}
 
 
+p { 	line-height: 20pt; }
+ul { 	line-height: 20pt; }
+
 div.indent { margin-left: 1.5em; }
 
 div.main { background-color: #fff;
 	   margin: 0;
 	   border: 2pt solid #777;
+	   margin-bottom: 1em;
 	 }
 
 div.header {
@@ -66,7 +70,7 @@ div.nav a:hover { color: #ff0; text-decoration: underline;}
 
 
 div.body {
-    padding-right: 1em;
+    padding-right: 8em;
 }
 
 div.footer { 
@@ -92,3 +96,8 @@ div.headerpic {
     width: 200px;
     float: right;
 }
+
+
+ul.sched li{ font-weight: 700; }
+ul.sched li ul li { font-weight: 400; }
+ul.sched li ul { margin-bottom: 4pt; }
