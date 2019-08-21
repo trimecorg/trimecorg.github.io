@@ -1,6 +1,6 @@
 h1 { 	font-family: 'Heebo', sans-serif;
 	font-weight: 800; 
-	font-size: 36pt;
+	font-size: 28pt;
 	margin: 0;
 /*	margin-bottom: 4pt; */
 	margin-left: 0.5em;
@@ -79,26 +79,31 @@ div.footer {
 
 
 
-@media only screen and (max-width: 1200px)  { 
+@media only screen and (max-width: 1000px)  { 
    div.main { width: 100%; }
    div.body {
     padding-right: 1em;
    }
+   h1 {  font-size: 24pt;  clear: both;}
+   p.subhead { 	font-size: 16pt;
+		line-height: 20pt;
+	     }
+
 }
 
-@media only screen and (min-width: 1201px) { 
-  div.main { width: 1200px; margin-left: auto; margin-right: auto; }
+@media only screen and (min-width: 1001px) { 
+  div.main { width: 1000px;
+		 margin-left: auto; 
+		margin-right: auto; 
+		}
 
-div.body {
+  div.body {
     padding-right: 8em;
-}
-
-
+  }
 }
 
 
 div.headerpic {
-
     width: 200px;
     float: right;
 }
